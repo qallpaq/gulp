@@ -1,0 +1,49 @@
+@import "libs";
+@import "fonts";
+@import "slick";
+@import "mixins";
+@import "vars";
+@import "components";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a, ul, li {
+  text-decoration: none;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  color: black;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  &:hover, &:focus {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+button, input, select {
+  &:active, &:focus {
+    outline: none;
+  }
+}
+
+.title {
+  color: $accent;
+}
+
+@import "media";

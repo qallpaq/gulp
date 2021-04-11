@@ -1,0 +1,11 @@
+@import "mixins";
+@import "fonts";
+@import 'vars';
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 10px;
+  position: relative;
+}

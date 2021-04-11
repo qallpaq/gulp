@@ -1,0 +1,14 @@
+@import "vars";
+
+@mixin flexy($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin center($position) {
+  position: $position;
+  left: 50%;
+  transform: translateX(-50%);
+}
